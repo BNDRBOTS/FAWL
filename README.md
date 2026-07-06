@@ -61,4 +61,5 @@ AI: I burned the house I grew up in / ash is the only family I'm new to / Monday
 - `FAWL_DATASET_V1.0.json` – the dataset (11 modules, full detail)
 - `FAWL_dataset_min.json` – compact ingest version
 - `FAWL_runtime_config.json` – runtime weights, triggers, heuristics, prompt
+- `module_runtime.json` – Conditional Execution & Self-Correction Stack (applies activation weights, triggers, and post-bar audit fallback)
 - `README.md` – this integrated reference
