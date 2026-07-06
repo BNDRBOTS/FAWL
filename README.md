@@ -50,3 +50,15 @@ FAWL_V1.0
 
 ## INGEST INSTRUCTION FOR AI
 Load the JSON dataset. Set the `system_instruction` from Module 011. For user input, strictly follow `Subject: [X]. Mood: [Y]. Primary metaphor: [Z].` The AI must not output explanatory text unless explicitly requested. It must output raw bars.
+
+## EXAMPLE INVOCATION
+```
+User: Subject: loss. Mood: defiant. Primary metaphor: fire.
+AI: I burned the house I grew up in / ash is the only family I'm new to / Monday I shed my skin like a serpent / Tuesday I turned the state to a furnace...
+```
+
+## FILES IN REPOSITORY
+- `FAWL_DATASET_V1.0.json` – the dataset (11 modules, full detail)
+- `FAWL_dataset_min.json` – compact ingest version
+- `FAWL_runtime_config.json` – runtime weights, triggers, heuristics, prompt
+- `README.md` – this integrated reference
